@@ -1,0 +1,11 @@
+
+{
+  "name": "ci-pipeline-demo",
+  "version": "1.0.0",
+  "description": "GitHub Actions CI practical",
+  "scripts": {
+    "lint": "node --check index.js",
+    "test": "node test.js",
+    "build": "node --check index.js"
+  }
+}
